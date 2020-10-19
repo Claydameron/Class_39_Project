@@ -11,6 +11,7 @@ var fruits;
 var fruitGroup;
 var fruit1_img, fruit2_img, fruit3_img, fruit4_img, fruit5_img;
 var player_img;
+var score;
 
 
 function preload(){
@@ -46,4 +47,6 @@ function draw() {
     
      game.end();
    }
+
+   text("Score = " + player.score)
 }
